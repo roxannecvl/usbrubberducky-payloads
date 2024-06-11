@@ -7,7 +7,7 @@ except:
 import random
 import time
 
-while True:
+for i in range(60):
     # Move the mouse cursor randomly
     x_offset = random.randint(-250, 250)
     y_offset = random.randint(-250, 250)
