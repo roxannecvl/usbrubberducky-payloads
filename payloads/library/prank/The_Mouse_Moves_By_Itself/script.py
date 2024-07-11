@@ -8,7 +8,7 @@ import random
 import time
 
 screen_width, screen_height = pyautogui.size()
-for i in range (10):
+for i in range (60):
     # Generate random offsets
     if random.choice([True, False]):  # Randomly choose between True (first range) and False (second range)
         x_offset = random.randint(-500, -300)
